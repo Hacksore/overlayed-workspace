@@ -1,0 +1,38 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../overlayed"
+    },
+    {
+      "path": "../overlayed-api",
+      "name": "api"
+    },
+    {
+      "path": "../overlayed-website",
+      "name": "gatsby"
+    }
+  ],
+  "settings": {},
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Stop all tasks",
+        "command": "echo ${input:terminate}",
+        "type": "shell",        
+        "problemMatcher": []
+      }
+    ],
+    "inputs": [
+      {
+        "id": "terminate",
+        "type": "command",
+        "command": "workbench.action.tasks.terminate",
+        "args": "terminateAll"
+      }
+    ]
+  }
+}

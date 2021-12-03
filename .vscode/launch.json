@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "compounds": [
+    {
+      "name": "Launch Local Stack",
+      "configurations": [
+        {
+          "folder": "api",
+          "name": "Debug Worker"
+        },
+        {
+          "folder": "gatsby",
+          "name": "Debug Gatsby"
+        },
+        {
+          "folder": "overlayed",
+          "name": "Debug Electron"
+        },
+        {
+          "folder": "overlayed",
+          "name": "Debug React"
+        },
+        {
+          "folder": "overlayed",
+          "name": "Electron: Renderer"
+        }
+      ]
+    }
+  ]
+}
